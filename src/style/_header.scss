@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  //   justify-content: right;
+  padding: 3rem 2rem;
+  gap: 5rem;
+}
+.logo {
+  justify-self: left;
+  flex-basis: 1;
+}
+.nav {
+  justify-self: right;
+  flex-basis: 1;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5rem;
+}
