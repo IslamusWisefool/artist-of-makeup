@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  color: $text-color-black;
+  background-color: #fff;
+  font-size: 0.8rem;
+  padding: 1.6em 1.8em;
+  border: 1px solid $text-color-black;
+  font-weight: 600;
+}
+.btn:hover,
+.btn:target {
+  transition: all 200ms linear;
+  background-color: $text-color-black;
+  color: #fff;
+}
+.btn:active {
+  background-color: $text-color-pink;
+  border: 1px solid transparent;
+}
+.teaser-btn {
+  margin-top: 2.5rem;
+}

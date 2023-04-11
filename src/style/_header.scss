@@ -1,21 +1,59 @@
 .header {
   display: flex;
   flex-direction: row;
-  //   justify-content: right;
-  padding: 3rem 2rem;
-  gap: 5rem;
+  justify-content: space-between;
+  padding: 2.5rem 4rem;
+  align-items: center;
 }
+
 .logo {
-  justify-self: left;
-  flex-basis: 1;
+  flex-grow: 1;
+  height: 50px;
+}
+
+.logo-pic {
+  display: inline-block;
+  background-image: url("../img/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 4 / 1;
+  width: 230px;
 }
 .nav {
-  justify-self: right;
-  flex-basis: 1;
+  padding: 0 2rem;
 }
 .nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  gap: 5rem;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.nav-item {
+  font-size: 1rem;
+}
+.nav-item-link {
+  display: inline-block;
+  position: relative;
+}
+.nav-item-link:hover,
+.nav-item-link:target {
+  color: $text-color-pink;
+}
+.nav-item:hover .nav-item-link::before,
+.nav-item:hover .nav-item-link::after {
+  content: "•";
+}
+.nav-item-link::before,
+.nav-item-link::after {
+  position: absolute;
+  content: "";
+  top: 10%;
+  color: $text-color-pink;
+}
+.nav-item-link::before {
+  left: -1rem;
+}
+.nav-item-link::after {
+  right: -1rem;
 }

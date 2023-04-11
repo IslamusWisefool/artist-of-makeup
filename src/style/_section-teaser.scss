@@ -1,0 +1,42 @@
+.section-teaser {
+  display: flex;
+  flex-direction: row;
+  max-height: 100vh;
+}
+.teaser-pic {
+  max-width: 50%;
+  flex-grow: 1;
+  overflow: hidden;
+}
+.teaser-pic img {
+  width: 100%;
+}
+.teaser-content {
+  background-color: $background-color-skin;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.content-wrapper {
+  margin: 0 auto;
+}
+.content-wrapper h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: -0.06em;
+}
+.content-wrapper p {
+  color: $text-color-grey;
+  position: relative;
+}
+.content-wrapper p::before {
+  position: absolute;
+  content: "";
+  background-color: $text-color-pink;
+  top: -13px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 1px;
+}

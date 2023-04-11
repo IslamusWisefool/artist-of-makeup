@@ -1,5 +1,8 @@
 @font-face {
   font-family: "Lora";
-  src: url("../fonts/Lora-Italic-VariableFont_wght.ttf") format("ttf"),
-    url("../fonts/Lora-VariableFont_wght.ttf") format("ttf");
+  src: local("Lora"), url("../fonts/Lora-Regular.ttf") format("ttf"),
+    url("../fonts/Lora-Bold.ttf") format("ttf"),
+    url("../fonts/Lora-Italic.ttf") format("ttf"),
+    url("../fonts/Lora-BoldItalic.ttf") format("ttf"),
+    url("../fonts/Lora-Regular.woff2") format("woff2");
 }
