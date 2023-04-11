@@ -46,9 +46,10 @@
 }
 .nav-item-link::before,
 .nav-item-link::after {
+  font-size: 8px;
   position: absolute;
   content: "";
-  top: 10%;
+  top: 30%;
   color: $text-color-pink;
 }
 .nav-item-link::before {
