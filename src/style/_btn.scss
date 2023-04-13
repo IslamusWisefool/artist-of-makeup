@@ -20,3 +20,10 @@
 .teaser-btn {
   margin-top: 2.5rem;
 }
+.btn-services {
+  padding: 0.8em 2em;
+}
+.btn-services:hover {
+  background-color: $text-color-pink;
+  border-color: transparent;
+}

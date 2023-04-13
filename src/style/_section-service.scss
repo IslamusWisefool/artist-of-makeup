@@ -1,0 +1,34 @@
+.section-services {
+  padding: 4rem 3rem;
+  text-align: center;
+  background-image: url("../img/background.png");
+  background-position: 40% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.services-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.services-title .heading {
+  margin: 2rem 0;
+}
+.services-title .text {
+  margin: 2rem 0 3rem;
+}
+.services-card {
+  max-width: 37ch;
+  background-color: white;
+  border-radius: 0.3rem;
+  padding: 3rem 2rem 2rem;
+}
+.services-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.services-card p {
+  font-size: 1rem;
+  margin: 2rem 0 3rem;
+}
