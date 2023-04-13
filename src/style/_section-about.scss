@@ -1,0 +1,20 @@
+.section-about {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 5rem;
+}
+.about-content {
+  max-width: 58%;
+}
+.about-content .text {
+  margin: 2rem 0;
+}
+.about-pic {
+  max-width: 30%;
+  aspect-ratio: 3/4;
+}
+.about-pic img {
+  border: 10px solid $text-color-pink;
+  width: 100%;
+  height: auto;
+}

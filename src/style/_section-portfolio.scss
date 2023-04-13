@@ -1,0 +1,28 @@
+.section-portfolio {
+  background-color: $background-color-skin;
+  padding: 3rem 2rem;
+}
+.portfolio-title {
+  text-align: center;
+}
+.portfolio-title .text {
+  margin-top: 2rem;
+}
+.portfolio-content {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.portfolio-item {
+  border: 1rem solid white;
+  aspect-ratio: 1;
+  max-width: 23rem;
+  max-height: 23rem;
+  overflow: hidden;
+}
+.portfolio-item img {
+  width: 100%;
+}
