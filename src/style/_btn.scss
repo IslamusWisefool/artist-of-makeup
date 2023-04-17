@@ -6,6 +6,8 @@
   padding: 1.6em 1.8em;
   border: 1px solid $text-color-black;
   font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 .btn:hover,
 .btn:target {
@@ -25,5 +27,18 @@
 }
 .btn-services:hover {
   background-color: $text-color-pink;
+  border-color: transparent;
+}
+.btn-pricing {
+  background-color: black;
+  color: white;
+  max-width: 150px;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  padding: 1.2em 2.5em;
+}
+.btn-pricing:hover,
+.btn-pricing:target {
+  background-color: $background-color-pink;
   border-color: transparent;
 }

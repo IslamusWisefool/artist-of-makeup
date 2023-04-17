@@ -1,0 +1,59 @@
+.section-pricing {
+  text-align: center;
+  padding: 5rem;
+  background-color: $background-color-skin;
+}
+.pricing-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.pricing-item {
+  background-color: white;
+  display: flex;
+  padding: 1rem 1rem 2rem;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.287);
+  gap: 1.4rem;
+  min-width: 210px;
+  flex: 1;
+}
+.pricing-item:nth-child(even) {
+  transform: scale(1.1);
+  margin: 0 1rem;
+}
+.pricing-img {
+  background-image: url("../img/pricing2.png");
+  aspect-ratio: 1;
+  width: 100%;
+  max-width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.pricing-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: $text-color-pink;
+}
+.pricing-about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.pricing-dott {
+  font-size: 0.9rem;
+  color: $text-color-grey;
+}
+.pricing-dott::before,
+.pricing-dott::after {
+  color: $text-color-pink;
+  content: " • ";
+  inset: 1;
+  width: max-content;
+}
