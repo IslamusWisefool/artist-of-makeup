@@ -23,6 +23,7 @@ h2 {
   left: 0;
 }
 .text {
+  margin: 2rem;
   font-size: 1.2rem;
   line-height: 1.5;
   letter-spacing: -0.06em;
@@ -34,3 +35,5 @@ h2 {
 .text-pink {
   color: $text-color-pink;
 }
+
+// clamp(1rem, 3vw + 1rem, 4rem)
