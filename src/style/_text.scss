@@ -1,8 +1,8 @@
 h1 {
-  font-size: 3rem;
+  font-size: clamp(1rem, 3vw + 1rem, 3rem);
 }
 h2 {
-  font-size: 2.7rem;
+  font-size: clamp(1rem, 2vw + 1rem, 2.7rem);
 }
 
 .heading {
@@ -24,7 +24,7 @@ h2 {
 }
 .text {
   margin: 2rem;
-  font-size: 1.2rem;
+  font-size: clamp(0.8rem, 1.6vw, 1.8rem);
   line-height: 1.5;
   letter-spacing: -0.06em;
   color: $text-color-black;
@@ -34,6 +34,11 @@ h2 {
 }
 .text-pink {
   color: $text-color-pink;
+}
+
+.text-big {
+  font-size: 2rem;
+  margin: 0 0 2rem;
 }
 
 // clamp(1rem, 3vw + 1rem, 4rem)

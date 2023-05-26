@@ -1,0 +1,60 @@
+.section-clients {
+  display: flex;
+  padding: 5rem;
+  justify-content: space-between;
+}
+.clients-avatar {
+  aspect-ratio: 1 /1;
+  overflow: hidden;
+  border: 1rem solid $text-color-pink;
+  flex: 1.5;
+  max-width: 500px;
+}
+.clients-content {
+  padding: 2rem;
+  text-align: center;
+  flex: 0.5;
+  user-select: none;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  flex-direction: column;
+  cursor: grab;
+  width: 100%;
+  height: 100%;
+}
+.slider-body {
+  display: inline-flex;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.grabbing {
+  cursor: grabbing;
+}
+.slider-item {
+  position: absolute;
+  inset: 1;
+  transform: translateX(500px);
+  flex: 1;
+}
+.slider-item-active {
+  transform: translateX(0);
+}
+.slider-dotts {
+  user-select: all;
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+}
+.slider-dott-btn {
+  border: none;
+  background: none;
+  color: rgba(#000, 0.5);
+  font-size: 3rem;
+  cursor: pointer;
+}
+.slider-dott-active {
+  color: rgba(#000, 1);
+}
